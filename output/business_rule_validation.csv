@@ -1,0 +1,13 @@
+﻿check,flagged_count,explanation,sample_records
+Transaction amount is zero or negative,4,Review transaction sign conventions and reversal records.,65045355; 115073913; 40135554; 40163827
+Transaction date does not match timestamp date,0,Transaction date should normally match its timestamp date.,
+Transaction date cannot be parsed,0,Check the stored format and validity of txn_date.,
+Negative annual customer income,0,Verify customer income values.,
+Non-positive loan sanctioned amount,0,Review loan amount and loan-status conventions.,
+Negative loan interest rate,0,Verify loan interest-rate values.,
+Loan interest rate above 100 percent,0,Review the value and whether the rate is stored as a percentage.,
+Non-positive loan tenure,0,Verify the recorded loan tenure.,
+Negative loan EMI,0,Verify the EMI amount.,
+Negative outstanding loan balance,0,Review the loan balance and accounting conventions.,
+Negative overdue amount,0,Verify overdue amount conventions.,
+Negative installment due or paid amount,0,Review repayment values and adjustment conventions.,

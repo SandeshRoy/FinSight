@@ -1,0 +1,18 @@
+table,row_count,column_count,total_null_cells,columns_with_nulls
+account_master,11507,10,11507,account_close_date: 11507
+account_monthly_snapshot,214323,13,0,
+branch_master,21,9,21,closure_date: 21
+card_monthly_snapshot,282977,11,0,
+card_portfolio,13270,11,0,
+churn_feature_snapshot,616356,21,1186382,churn_date: 593191; churn_reason: 593191
+churn_simulation_state,10000,7,15798,churn_month: 7899; churn_reason: 7899
+customer_churn_label,848888,6,1625150,churn_date: 812575; churn_reason: 812575
+customer_complaints,14869,13,3346,resolution_days: 1673; csat_score: 1673
+customer_feedback,6655,8,0,
+customer_master,10000,17,0,
+customer_monthly_activity,214323,18,0,
+digital_engagement_monthly,214323,13,5007,last_login_date: 5007
+loan_master,3542,13,0,
+loan_monthly_snapshot,65534,12,0,
+product_holdings_monthly,214323,13,0,
+transaction_fact,1189869,20,0,

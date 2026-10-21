@@ -1,0 +1,23 @@
+[project]
+name = "bank-data-simulator"
+version = "0.1.0"
+description = "Realistic bank data simulator for testing and development of Churn Compass or similar applications."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.5.4",
+    "faker>=40.23.0",
+    "numpy>=2.4.6",
+    "polars>=1.41.2",
+    "psycopg2-binary>=2.9.12",
+    "pyarrow>=24.0.0",
+    "pydantic>=2.13.4",
+]
+
+[dependency-groups]
+dev = [
+    "line-profiler>=5.0.2",
+    "memray>=1.19.3",
+    "pytest>=9.1.0",
+    "ruff>=0.15.18",
+]

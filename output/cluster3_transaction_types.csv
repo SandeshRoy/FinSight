@@ -1,0 +1,7 @@
+txn_type,direction,transaction_count,customer_count,total_amount
+Direct Credit,Credit,9381,1292,9981567486.229996
+Debit Card / UPI,Debit,7056,1248,47921114.91
+Fee Charged,Debit,3106,1158,345812.05999999994
+Credit Card Payment,Debit,708,293,6283035.5
+Loan EMI Payment,Debit,147,28,1340106.8599999992
+Salary Credit,Credit,8,6,567350.91

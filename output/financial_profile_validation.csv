@@ -1,0 +1,11 @@
+﻿check,flagged_count
+Duplicate customer-month keys,0
+NULL customer IDs or months,0
+Negative estimated monthly income,0
+Negative credit or debit totals,0
+Net cash flow formula mismatch,0
+Expense-to-credit ratio mismatch,0
+EMI-to-income ratio mismatch,0
+Negative outstanding loan balances,0
+Negative EMI obligations,0
+EMI obligation exceeds estimated monthly income,0

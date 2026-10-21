@@ -1,0 +1,23 @@
+segment_id,direction,counterparty_type,txn_type,transaction_count,total_amount,customers
+0,Credit,Self Transfer,Direct Credit,2796,2995813641.339999,393
+0,Debit,Bank,Loan EMI Payment,8457,799201211.729999,393
+0,Debit,Merchant,Debit Card / UPI,2084,12780204.199999996,385
+0,Debit,Bank,Fee Charged,840,93201.48000000001,345
+0,Debit,Bank,Credit Card Payment,192,1181141.2,87
+1,Credit,Business Income,Direct Credit,53447,8541191144.01001,1527
+1,Credit,Corporate,Salary Credit,216,26968994.68,10
+1,Debit,Merchant,Debit Card / UPI,119777,559701062.5699996,1537
+1,Debit,Bank,Credit Card Payment,15418,163621750.78999993,903
+1,Debit,Bank,Loan EMI Payment,14849,673829725.749998,697
+1,Debit,Bank,Fee Charged,3839,436415.7799999999,1412
+2,Credit,Business Income,Direct Credit,164367,4828093576.669996,3318
+2,Credit,Corporate,Salary Credit,67766,3786434150.490006,3413
+2,Debit,Merchant,Debit Card / UPI,620443,2609771498.4900026,6716
+2,Debit,Bank,Credit Card Payment,46265,566951373.2899998,3157
+2,Debit,Bank,Loan EMI Payment,32546,642640174.6699954,1967
+2,Debit,Bank,Fee Charged,15784,1947191.7900000005,5882
+3,Credit,Self Transfer,Direct Credit,9480,10084595456.659996,1307
+3,Debit,Merchant,Debit Card / UPI,7163,49026122.01,1265
+3,Debit,Bank,Fee Charged,3142,349677.68000000005,1176
+3,Debit,Bank,Credit Card Payment,731,6445213.029999999,301
+3,Debit,Bank,Loan EMI Payment,267,3338794.5799999996,40

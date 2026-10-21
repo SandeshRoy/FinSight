@@ -1,0 +1,27 @@
+check,issue_count,details
+customer_master: NULL key values,0,Candidate key: customer_id
+customer_master: duplicate key groups,0,Candidate key: customer_id
+account_master: NULL key values,0,Candidate key: account_id
+account_master: duplicate key groups,0,Candidate key: account_id
+transaction_fact: NULL key values,0,Candidate key: transaction_id
+transaction_fact: duplicate key groups,0,Candidate key: transaction_id
+loan_master: NULL key values,0,Candidate key: loan_id
+loan_master: duplicate key groups,0,Candidate key: loan_id
+branch_master: NULL key values,0,Candidate key: branch_code
+branch_master: duplicate key groups,0,Candidate key: branch_code
+account_master.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+transaction_fact.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+transaction_fact.account_id -> account_master.account_id,0,Non-NULL child references without a parent
+account_monthly_snapshot.account_id -> account_master.account_id,0,Non-NULL child references without a parent
+loan_master.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+loan_monthly_snapshot.loan_id -> loan_master.loan_id,0,Non-NULL child references without a parent
+customer_monthly_activity.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+digital_engagement_monthly.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+product_holdings_monthly.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+churn_feature_snapshot.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+customer_churn_label.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+churn_simulation_state.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+customer_complaints.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+customer_feedback.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+card_portfolio.customer_id -> customer_master.customer_id,0,Non-NULL child references without a parent
+Transaction/account customer consistency,0,Transactions whose customer differs from account owner

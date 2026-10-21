@@ -1,0 +1,5 @@
+segment_id,account_type,accounts,snapshot_count,negative_balance_snapshots,negative_with_known_limit,snapshots_without_limit,below_overdraft_limit,minimum_current_balance,maximum_overdraft_limit
+0,Savings,4820,99385,1161.0,1161.0,0.0,1161.0,-782649.72,0.0
+1,Savings,1732,37189,0.0,0.0,0.0,0.0,2903.65,0.0
+2,Savings,3282,75777,684.0,684.0,0.0,684.0,-666692.57,0.0
+3,Savings,166,1972,1293.0,1293.0,0.0,1293.0,-1570902.68,0.0

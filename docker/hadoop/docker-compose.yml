@@ -1,0 +1,40 @@
+
+services:
+  namenode:
+    image: apache/hadoop:3.4.1
+    container_name: finsight-namenode
+    hostname: namenode
+    command: ["hdfs", "namenode"]
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    volumes:
+      - namenode_data:/tmp/hadoop-hadoop/dfs/name
+      - ./conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ./conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+    networks:
+      - finsight-net
+
+  datanode:
+    image: apache/hadoop:3.4.1
+    container_name: finsight-datanode
+    hostname: datanode
+    command: ["hdfs", "datanode"]
+    depends_on:
+      - namenode
+    ports:
+      - "9864:9864"
+    volumes:
+      - datanode_data:/tmp/hadoop-hadoop/dfs/data
+      - ./conf/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ./conf/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+    networks:
+      - finsight-net
+
+volumes:
+  namenode_data:
+  datanode_data:
+
+networks:
+  finsight-net:
+    name: finsight-net

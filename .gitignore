@@ -1,0 +1,36 @@
+__pycache__/
+*.py[codz]
+*$py.class
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+.env
+.venv
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+.coverage
+.coverage.*
+htmlcov/
+
+# project specific
+temp-test/
+data/
+
+# AI 
+AGENTS.md
+/skills
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+
+output/transaction_fact.csv
